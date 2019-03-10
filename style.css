@@ -1,0 +1,194 @@
+  #navbar{
+    background-color: #FE661D;
+    font-family:"Aniron", Times, serif;
+  }
+
+#navbar a{
+  font-family:"Aniron", Times, serif;
+    font-size: 1em;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+.container{
+    background-color: #F5F2EB;
+  }
+
+  .carousel img{
+    max-height: 950px;
+  }
+
+  .carousel-caption {
+    bottom: 30px;
+    z-index: 10;
+    text-align: center;
+    top:9em;
+    font-family:"Party Business", Times, serif;
+    color: #FFFFFF;
+  }
+
+  .carousel-caption h4{
+    font-family:"Aniron", Times, serif;
+    font-size: 2.5em;
+    text-align: left;
+  }
+
+  .carousel-caption p{
+    font-family:"Party Business", Times, serif;
+    font-size: 2em;
+    text-align: left;
+  }
+
+  #symbol{
+    font-family: "Tengwar Annatar", Times, serif;
+    color: orangered ;
+  }
+  
+  .name{
+    position: absolute;
+    color:white;
+    font-size: 40px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+  }
+  
+  .rewardtext{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 12px;
+    color: black;
+    top: -3%;
+    left: 18%;
+    font-size: 25px;
+    margin: 26px;
+    padding: .6em;
+  }
+  
+  .card:hover .rewardtext{
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+      filter: grayscale(100%);
+    -webkit-transition:.5s ease-in-out;
+    -moz-transition:.5s ease-in-out;
+    -o-transition:.5s ease-in-out;
+    -ms-transition:.5s ease-in-out;
+    opacity : 0;
+  }
+  
+  .card:hover .picture {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+      filter: grayscale(100%);
+    -webkit-transition:.5s ease-in-out;
+    -moz-transition:.5s ease-in-out;
+    -o-transition:.5s ease-in-out;
+    -ms-transition:.5s ease-in-out;
+  }
+  
+  .card:hover .name{
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+      filter: grayscale(100%);
+    -webkit-transition:.5s ease-in-out;
+    -moz-transition:.5s ease-in-out;
+    -o-transition:.5s ease-in-out;
+    -ms-transition:.5s ease-in-out;
+    font-size:2em;
+    top: 50%;
+  }
+  
+  span{
+    color: orangered;
+  }
+  
+  /* Hover reaction / Picture DEAD Hobbit------*/
+  
+  .hoverDead {
+    text-align: center;
+    position: relative;
+    font-family:"Party Business", Times, serif;
+  }
+  
+  .hoverDead:hover p.dead{
+    opacity: 1;
+  }
+  
+  
+  .hoverDead p.dead{
+    font-size: 50px;
+    color: rgb(250, 3, 3);
+    width: 200px;
+    height: 200px;
+    background-image: url("https://nsa40.casimages.com/img/2019/03/03/mini_190303052120107678.jpg");
+    margin: 0 auto;
+    top: 20px;
+    left: 18%;
+    opacity: 0;
+    display: block;
+    position: absolute;
+    -webkit-transition:.5s ease-in-out;
+    -moz-transition:.5s ease-in-out;
+    -o-transition:.5s ease-in-out;
+    -ms-transition:.5s ease-in-out;
+  
+  }  
+  
+  .fellows h2{
+    font-family:"AnironC", Times, serif;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 30px;
+  
+  }
+
+  .fellows small{
+    font-family:"AnironC", Times, serif;
+    font-weight: bold;
+  }
+
+  .badge{
+    padding: 20px;
+    margin: 20px;
+    font-family:"Party Business", Times, serif;
+    font-size:2.5em;
+    color: #5D5C57;
+  }
+
+.col-lg-4{
+  margin-right: -4%;
+}
+
+  article img{
+    border: 6px solid black;
+  }
+
+  #pills{
+    font-size:2.5em;
+  }
+
+  #pills .badge:hover{
+    color: #FE661D;
+    text-decoration: underline orangered;
+  }
+
+  .card-body{
+    background-color: black;
+    font-family:"Party Business", Times, serif;
+    color: #FFFFFF;
+    margin-right: -0%;
+  }
+
+  .captured{
+    border-radius: 50px;
+    }
+    
+    ul{
+      list-style-type: none;
+    }
